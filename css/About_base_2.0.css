@@ -518,6 +518,10 @@ a{
 .slider__item {
 	text-align: center;
 }
+.dental{
+	pointer-events: none;
+	opacity: 0.5;
+}
 .works__slider-photo{
 	width: 340px;
 }
