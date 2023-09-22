@@ -234,7 +234,6 @@ a{
 .page__main-block{
 }
 .page__skills {
-	box-shadow: 0px -20px 15px 0px rgba(0, 0, 0, 0.47);
 }
 .page__works{
 	margin-top: 70px;
@@ -244,6 +243,12 @@ a{
 
 .main-block {
    background: url('../img/Main-block/11771175_4840719.jpg') 0 0/100% auto no-repeat;
+	box-shadow: inset 0px -12px 20px -7px rgba(162, 162, 162, 0.67);
+}
+@media (max-width:900px) {
+	.main-block{
+		background: url('../img/Main-block/11771175_4840719.jpg') 0 0/auto 100% no-repeat;
+	}
 }
 .main-block__cont {
    display: flex;
@@ -318,6 +323,10 @@ a{
 	}
 	.main-block__text-name{
 		width: 300px;
+		font-size: 50px;
+	}
+	.main-block__text-hi{
+		font-size: 22px;
 	}
 }
 @media (max-width: 615px) {
@@ -701,7 +710,7 @@ a{
 .inputBox textarea:focus{
 	outline: 2px solid #579353;
 	background-color: #eaeced;
-	/*padding-bottom: 28px;*/
+	padding-bottom: 28px;
 }
 .inputBox textarea[type="submit"]{
 	background: #579353;
