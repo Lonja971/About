@@ -234,6 +234,7 @@ a{
 .page__main-block{
 }
 .page__skills {
+	box-shadow: 0px -20px 15px 0px rgba(0, 0, 0, 0.47);
 }
 .page__works{
 	margin-top: 70px;
@@ -401,21 +402,8 @@ a{
 	height: 150px;
 	border-radius: 50%;
 	color: #579353;
+	transition: all 0.3s ease 0s;
 	background: #eaeced linear-gradient(to right, transparent 50%, var(--clr) 0);
-	animation-name: loading;
-	animation-duration: 1.5s;
-	animation-iteration-count: infinite;
-}
-@keyframes loading{
-	0%{
-		background: #eaeced linear-gradient(to right, transparent 50%, var(--clr) 0);
-	}
-	50%{
-		background: #bebebe linear-gradient(to right, transparent 50%, var(--clr) 0);
-	}
-	100%{
-		background: #eaeced linear-gradient(to right, transparent 50%, var(--clr) 0);
-	}
 }
 .progress h3{
 	position: absolute;
@@ -457,20 +445,6 @@ a{
 .progress.less::before{
 	background-color: #eaeced;
 	transform: rotate(calc(((var(--i) - 0) * 0.01turn)));
-	animation-name: loadingless;
-	animation-duration: 1.5s;
-	animation-iteration-count: infinite;
-}
-@keyframes loadingless{
-	0%{
-		background-color: #eaeced;
-	}
-	50%{
-		background-color: #bebebe;
-	}
-	100%{
-		background-color: #eaeced;
-	}
 }
 .progress::after{
 	content: "";
