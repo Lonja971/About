@@ -667,7 +667,7 @@ a{
 }
 .inputBox input:valid,
 .inputBox input:focus{
-	outline: 2px solid #579353;
+	outline: 1px solid #579353;
 }
 .inputBox input[type="submit"]{
 	background: #579353;
@@ -708,9 +708,9 @@ a{
 }
 .inputBox textarea:valid,
 .inputBox textarea:focus{
-	outline: 2px solid #579353;
+	outline: 1px solid #579353;
 	background-color: #eaeced;
-	padding-bottom: 28px;
+	padding-bottom: 35px;
 }
 .inputBox textarea[type="submit"]{
 	background: #579353;
