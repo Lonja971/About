@@ -304,14 +304,12 @@ body.lock {
 	padding: 16px 33px;
 	transition: all 0.3s ease 0s;
 	background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
-	outline: 2px solid #000000;
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 15px;
 }
 .start-header__button:hover{
 	background: #fff;
-	outline: 2px solid #fff;
 	color: #000;
 	margin-bottom: 5px;
 }

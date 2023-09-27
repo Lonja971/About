@@ -71,6 +71,7 @@ $(document).ready(function(){
 });
 
 //--------------Footer-Limit---------------------
+
 function validateTextarea () {
 	const textarea = document.querySelector('.textarea');
 	const result = document.querySelector('.result');
